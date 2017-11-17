@@ -1,0 +1,55 @@
+body {
+    font-family: "avenir", sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+div.sidebar > a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: whitesmoke;
+    background-color: lightgray;
+    padding: 25px;
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+div.sidebar > a:hover {
+    color: white;
+    background-color: gray;
+}
+
+div.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+}
+
+div.scrollable {
+    margin-left: 250px;
+    padding: 50px;
+    overflow: scroll;
+}
+
+div.resume {
+    background-color: white;
+    box-shadow: 0px 0px 25px 5px lightgray;
+    padding: 25px;
+
+}
+
+div.resume-section {
+    border: 10px solid whitesmoke;
+    padding: 50px;
+    margin: 25px
+}
+
+span.title {
+    font-size: 2em;
+    font-weight: bold;
+}
