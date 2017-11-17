@@ -7,17 +7,19 @@ body {
 div.sidebar > a {
     text-decoration: none;
     font-size: 1.25em;
-    color: whitesmoke;
-    background-color: lightgray;
+    color: gray;
+    background-color: white;
     padding: 25px;
     margin: 25px;
     display: block;
     text-align: center;
+    transition: box-shadow 0.25s ease-in-out;
 }
 
 div.sidebar > a:hover {
-    color: white;
-    background-color: gray;
+    color: gray;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px gray;
 }
 
 div.sidebar {
